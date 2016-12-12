@@ -1,4 +1,4 @@
 var mongoose = require("mongoose");
-mongoose.connect("mongodb://localhost/spotify");
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/spotify");
 
 module.exports.Cargo = require('./cargoModel');
