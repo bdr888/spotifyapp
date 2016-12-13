@@ -50,6 +50,18 @@ function getLogout(request, response) {
 // 	return secretStrategy(request, response);
 // }
 
+// var User = require('../models/user');
+
+// // GET
+// function getAllUsers(request, response) {
+//   User.find(function(error, users) {
+//     if (error) { response.render({message: 'Error finding users'});}
+//     console.log("Rendering user");
+//     console.log(users);
+//     response.render('layout', {users: users});
+//   });
+// }
+
 module.exports = {
   getLogin: getLogin,
   postLogin: postLogin ,
@@ -57,4 +69,5 @@ module.exports = {
   postSignup: postSignup,
   getLogout: getLogout,
   // secret: secret
+  // getAll: getAllUsers
 };

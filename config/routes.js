@@ -34,3 +34,7 @@ router.route("/logout")
 // 	.get(authenticatedUser, usersController.secret);
 
 module.exports = router;
+
+
+// router.route('/users')
+// .get(usersController.getAllUsers);
