@@ -1,5 +1,5 @@
 {
-  "name": "local-auth-passport-lab",
+  "name": "spotifyapp",
   "version": "0.0.1",
   "description": "WDI lab about implementing passport with mongoose and express",
   "main": "server.js",

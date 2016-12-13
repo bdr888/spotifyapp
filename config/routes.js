@@ -29,9 +29,11 @@ router.route('/login')
 router.route("/logout")
   .get(usersController.getLogout);
 
-
 // router.route("/secret")
 // 	.get(authenticatedUser, usersController.secret);
+
+// router.route('/artist')
+// .get(artistController);
 
 module.exports = router;
 
